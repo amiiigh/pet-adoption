@@ -7,11 +7,9 @@ client/node_modules
 
 /.idea
 
-# testing
-/coverage
 
 # production
-/build
+/client/dist
 
 # misc
 .DS_Store
