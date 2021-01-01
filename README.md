@@ -13,6 +13,6 @@
 
 `$ npm install`
 
-`$ npm run dev`
+`$ npm run start`
 
 `pet/server/animals.json` contains the sample pets information.
