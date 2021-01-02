@@ -1,14 +1,14 @@
+import React from 'react';
+import {Link, useLocation, useHistory} from "react-router-dom";
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import React from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import PetsIcon from '@material-ui/icons/Pets';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import makeStyles from '@material-ui/core/styles/makeStyles';
-import {Link, useLocation, useHistory} from "react-router-dom";
 
 
 export const Navbar = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom';
 import { useRequest } from 'ahooks';
-import { sendGetAnimalDetail } from "../api-handlers/animal";
-import { Error } from "./Error";
+import { sendGetAnimalDetail } from '../api-handlers/animal';
+import { Error } from './Error';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';

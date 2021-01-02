@@ -1,10 +1,10 @@
+import React from "react";
+import {useHistory} from "react-router-dom";
+import PropTypes from "prop-types";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import ReplayOutlinedIcon from "@material-ui/icons/ReplayOutlined";
-import React from "react";
-import {useHistory} from "react-router";
-import PropTypes from "prop-types";
 
 export const Error = ({error}) => {
 	const history = useHistory();

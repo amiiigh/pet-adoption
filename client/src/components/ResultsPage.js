@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRequest } from 'ahooks';
-import { useLocation } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 import { sendSearchAnimalRequest } from "../api-handlers/animal";
 import { Error } from "./Error";
 import AnimalCard from './AnimalCard';
